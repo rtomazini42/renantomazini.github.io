@@ -12,6 +12,7 @@ body{
 
 
 
+
 .banner {
   background-color: rgba(0, 0, 0, 0.4);
   /*background-color: rgba(255,255,255,0.4);*/
@@ -49,12 +50,25 @@ body{
   visibility: hidden;
   background-color: #212121;
   color: white;
+  border-style: none;
+  width: 5%;
+  transition:background 2s;
+}
+
+.js-noite:hover{
+  background-color: cyan;
 }
 .js-dia{
   position: absolute;
   visibility: visible;
   background-color: lightblue;
   color: #212121;
+  border-style: none;
+  width: 5%;
+  transition:background 2s;
+}
+.js-dia:hover{
+  background-color: darkblue;
 }
 
 .conteudo {
@@ -66,6 +80,7 @@ body{
   border-style: solid;
   border-width: inherit;
   border-color: white;
+  border-style: none;
 }
 
 .conteudo h1{
